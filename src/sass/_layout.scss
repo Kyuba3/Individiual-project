@@ -1,9 +1,10 @@
-.container {
-    max-width: 1140px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
-.page {
-    padding: 10px 0;
+.header {
+  background-image: url(../images/background.png);
+  background-size: 100% 100%;
+  background-position: center;
+  font-family: $mainFont;
+  z-index: 2;
+  max-width: 100%;
+  position: relative;
+  height: 100vh;
 }
