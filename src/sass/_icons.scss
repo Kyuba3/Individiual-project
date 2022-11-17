@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'icon-arrow';
-  src: url('../vendor/font/icon-arrow.eot?84498654');
-  src: url('../vendor/font/icon-arrow.eot?84498654#iefix') format('embedded-opentype'),
-    url('../vendor/font/icon-arrow.woff2?84498654') format('woff2'),
-    url('../vendor/font/icon-arrow.woff?84498654') format('woff'),
-    url('../vendor/font/icon-arrow.ttf?84498654') format('truetype'),
-    url('../vendor/font/icon-arrow.svg?84498654#icon-arrow') format('svg');
+  font-family: 'fontello';
+  src: url('../vendor/font/fontello.eot?12910007');
+  src: url('../vendor/font/fontello.eot?12910007#iefix') format('embedded-opentype'),
+    url('../vendor/font/fontello.woff2?12910007') format('woff2'),
+    url('../vendor/font/fontello.woff?12910007') format('woff'),
+    url('../vendor/font/fontello.ttf?12910007') format('truetype'),
+    url('../vendor/font/fontello.svg?12910007#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,16 +14,16 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'icon-arrow';
-    src: url('../font/icon-arrow.svg?84498654#icon-arrow') format('svg');
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?12910007#fontello') format('svg');
   }
 }
 */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "icon-arrow";
+  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: never;
+  speak-as: never;
 
   display: inline-block;
   text-decoration: inherit;

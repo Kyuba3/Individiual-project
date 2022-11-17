@@ -1,32 +1,71 @@
 .header-main-title{
-    color: $font-color-two;
+  color: $font-color-two;
+
+}
+
+span {
+  font-size: 15px;
+  letter-spacing: 5px;
 }
 
 
 .header-subtitle{
-    color: $font-color-one;
-    font-size: 50px;
-    padding: 70px 30px 25px 0;
-    font-family: $mainFont;
+  color: $font-color-one;
+  font-size: 50px;
+  padding: 70px 30px 25px 0;
+  font-family: $mainFont;
 }
 
 .header-nav{
-    padding-right: 70px;
-    padding-top: 40px;
-    text-align: right;
-    font-weight: 600;
-    z-index: 2;
+  padding-right: 70px;
+  padding-top: 40px;
+  text-align: right;
+  font-weight: 600;
+  z-index: 2;
 }
 
 a {
-    text-decoration: none;
-    color: $font-color-two;
-    padding-left: 20px;
-    letter-spacing: 2px; 
-    z-index: 2;
+  text-decoration: none;
+  color: $font-color-two;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+a:hover{
+  color: #00FF00;
 }
 
 .header-icon {
-    color: $font-color-two;
-    text-align: center;
+  color: $font-color-two;
+  text-align: center;
+  font-family: $mainFont;
+  letter-spacing: 5px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.header-icon i {
+  font-size: 40px;
+}
+.main-text-1{
+  text-align: left;
+}
+
+.main-text-2 {
+  position: relative;
+  text-align: right;
+  letter-spacing: 10px;
+  margin-top: -80px;
+  margin-left: 100px;
+}
+.main-text-2::after{
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: 41%;
+  right: 10%;
+  width: 250px;
+  height: 5px;
+  transform: translateX(-50%);
+  background-color: $font-color-one;
 }

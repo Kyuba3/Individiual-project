@@ -1,10 +1,16 @@
 .header {
   background-image: url(../images/background.png);
-  background-size: 100% 100%;
   background-position: center;
   font-family: $mainFont;
   z-index: 2;
   max-width: 100%;
   position: relative;
   height: 100vh;
+  
+}
+
+.header img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
