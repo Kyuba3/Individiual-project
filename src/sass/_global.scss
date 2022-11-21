@@ -6,8 +6,16 @@ body {
   margin: 0;
 }
 
-.container { 
+.container {
   max-width: 1140px;
-  margin: 0 auto;
   padding: 0 20px;
+  margin: 0 auto;
+}
+
+#pages > section {
+  display: none;
+}
+
+#pages > section.active {
+  display: block;
 }
