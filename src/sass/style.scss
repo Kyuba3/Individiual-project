@@ -19,10 +19,13 @@
 @import "icons";
 
 // pages
-@import "header";
-@import "home";
-@import "contact";
-@import "products";
+@import "pagesStyles/header";
+@import "pagesStyles/home";
+@import "pagesStyles/contact";
+@import "pagesStyles/products";
 
 // media
 @import "media";
+
+//fotos
+@import "fotos";

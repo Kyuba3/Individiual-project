@@ -1,26 +1,19 @@
 import { templates, select } from '../settings.js';
 
 class Home {
-  constructor(element){
+  constructor(){
     const thisHome = this;
-    thisHome.render(element);
     
+    thisHome.render();
   }
     
-  render(element){
+  render(){
     const thisHome = this;
-    
-    thisHome.dom = {};
-    
-    thisHome.dom.wrapper = element;
     
     const generatedHTML = templates.homePage(thisHome.data);
     
     document.querySelector(select.containerOf.home).innerHTML += generatedHTML;
-    
-    
   }
-
 }
 
 export default Home;

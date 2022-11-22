@@ -37,6 +37,9 @@
     letter-spacing: 2px;
     z-index: 2;
   }
+  a:hover {
+    color: green;
+  }
 }
 
 .header-title {
@@ -115,3 +118,4 @@
   transform: translateX(-50%);
   background: #BEA67C;
 }
+

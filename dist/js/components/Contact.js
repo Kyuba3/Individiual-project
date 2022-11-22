@@ -1,22 +1,18 @@
 import { templates, select } from '../settings.js';
 
 class Contact {
-  constructor(element){
+  constructor(){
     const thisContact = this;
-    thisContact.render(element);
+    
+    thisContact.render();
   }
     
-  render(element){
+  render(){
     const thisContact = this;
-    
-    thisContact.dom = {};
-    
-    thisContact.dom.wrapper = element;
-    
+
     const generatedHTML = templates.contactPage(thisContact.data);
     
     document.querySelector(select.containerOf.contact).innerHTML = generatedHTML;
-    
   }
 }
 
