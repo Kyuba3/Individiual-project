@@ -52,13 +52,13 @@
     }
   }
       
-  .header-title::after {
+  .header-sub-title::after {
     top: 105px;
     width: 100px;
     height: 2px;
   }
     
-  .brand-title {
+  .header-title {
     h1 {
       line-height: 12px;
       letter-spacing: 8px;
@@ -86,7 +86,7 @@
     }
   }
       
-  .header-title {
+  .header-sub-title {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 5px;
@@ -250,13 +250,13 @@
     }
   }
       
-  .header-title::after {
+  .header-sub-title::after {
     top: 170px;
     width: 120px;
     height: 3px;
   }
     
-  .brand-title {
+  .header-title {
     h1 {
       line-height: 12px;
       letter-spacing: 8px;
@@ -281,7 +281,7 @@
     }
   }
 
-  .header-title {
+  .header-sub-title {
     padding-top: 80px;
     padding-left: 10px;
     padding-right: 5px;
@@ -407,7 +407,7 @@
 }
 
 @media (min-width: 991px) and (max-width: 1151px) {
-  .header-title {
+  .header-sub-title {
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 5px;
@@ -522,7 +522,7 @@
 }
 
 @media (max-width: 414px) {
-  .header-title::after {
+  .header-sub-title::after {
     top: 140px;
     width: 80px;
     height: 2px;

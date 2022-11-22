@@ -1748,7 +1748,7 @@ body {
   display: block;
 }
 
-.brand-title {
+.header-title {
   display: flex;
   padding-top: 15px;
   padding-left: 70px;
@@ -1757,12 +1757,12 @@ body {
   font-weight: 900;
   font-family: "Source Sans Pro", sans-serif;
 }
-.brand-title h1 {
+.header-title h1 {
   z-index: 2;
   line-height: 10px;
   letter-spacing: 10px;
 }
-.brand-title span {
+.header-title span {
   z-index: 2;
   font-size: 15px;
   letter-spacing: 5px;
@@ -1786,7 +1786,7 @@ body {
   color: green;
 }
 
-.header-title {
+.header-sub-title {
   color: #BEA67C;
   font-size: 50px;
   padding-top: 70px;
@@ -1797,13 +1797,13 @@ body {
   letter-spacing: 10px;
   font-family: "Source Sans Pro", sans-serif;
 }
-.header-title .sub-title-1 {
+.header-sub-title .sub-title-1 {
   line-height: 10px;
   z-index: 2;
   font-weight: 600;
   margin-left: auto;
 }
-.header-title .sub-title-2 {
+.header-sub-title .sub-title-2 {
   padding-left: 130px;
   line-height: 40px;
   z-index: 2;
@@ -1940,7 +1940,7 @@ body {
   z-index: 2;
 }
 
-.header-title::after {
+.header-sub-title::after {
   position: absolute;
   content: "";
   bottom: -65px;
@@ -2173,18 +2173,18 @@ body {
     font-size: 15px;
     z-index: 2;
   }
-  .header-title::after {
+  .header-sub-title::after {
     top: 105px;
     width: 100px;
     height: 2px;
   }
-  .brand-title h1 {
+  .header-title h1 {
     line-height: 12px;
     letter-spacing: 8px;
     font-size: 13px;
     margin: 0 auto;
   }
-  .brand-title span {
+  .header-title span {
     font-size: 10px;
     letter-spacing: 3px;
     margin: 0 auto;
@@ -2200,19 +2200,19 @@ body {
     padding-right: 5px;
     letter-spacing: 0px;
   }
-  .header-title {
+  .header-sub-title {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 5px;
     letter-spacing: 8px;
   }
-  .header-title .sub-title-1 {
+  .header-sub-title .sub-title-1 {
     line-height: 0px;
     margin: 0 auto;
     font-size: 30px;
     text-align: center;
   }
-  .header-title .sub-title-2 {
+  .header-sub-title .sub-title-2 {
     text-align: center;
     line-height: 30px;
     font-size: 30px;
@@ -2324,18 +2324,18 @@ body {
     font-size: 16px;
     z-index: 2;
   }
-  .header-title::after {
+  .header-sub-title::after {
     top: 170px;
     width: 120px;
     height: 3px;
   }
-  .brand-title h1 {
+  .header-title h1 {
     line-height: 12px;
     letter-spacing: 8px;
     font-size: 18px;
     margin: 0 auto;
   }
-  .brand-title span {
+  .header-title span {
     font-size: 14px;
     letter-spacing: 3px;
     margin: 0 auto;
@@ -2348,19 +2348,19 @@ body {
     padding-right: 5px;
     letter-spacing: 0px;
   }
-  .header-title {
+  .header-sub-title {
     padding-top: 80px;
     padding-left: 10px;
     padding-right: 5px;
     letter-spacing: 8px;
   }
-  .header-title .sub-title-1 {
+  .header-sub-title .sub-title-1 {
     line-height: 0px;
     margin: 0 auto;
     font-size: 60px;
     text-align: center;
   }
-  .header-title .sub-title-2 {
+  .header-sub-title .sub-title-2 {
     text-align: center;
     line-height: 30px;
     font-size: 60px;
@@ -2449,17 +2449,17 @@ body {
   }
 }
 @media (min-width: 991px) and (max-width: 1151px) {
-  .header-title {
+  .header-sub-title {
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 5px;
     letter-spacing: 8px;
   }
-  .header-title .sub-title-1 {
+  .header-sub-title .sub-title-1 {
     line-height: 0px;
     font-size: 80px;
   }
-  .header-title .sub-title-2 {
+  .header-sub-title .sub-title-2 {
     text-align: center;
     line-height: 30px;
     font-size: 80px;
@@ -2540,7 +2540,7 @@ body {
   }
 }
 @media (max-width: 414px) {
-  .header-title::after {
+  .header-sub-title::after {
     top: 140px;
     width: 80px;
     height: 2px;

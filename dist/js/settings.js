@@ -7,7 +7,7 @@ export const select = {
   
   containerOf: {
     home: '#home-wrapper',
-    products: '#products-list',
+    products: '#products-wrapper',
     contact: '#contact-wrapper',
     pages: '#home, #products, #contact',
   },
