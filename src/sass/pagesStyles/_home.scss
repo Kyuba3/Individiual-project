@@ -1,68 +1,68 @@
 .home {
-    background-image: url(../images/about.jpg);
-    padding-top: 20px;
-    background-size: 100% 100%;
-    height: 90vh;
-    background-position: center;
-    transform: translateX();
-  } 
+  background-image: url(../images/about.jpg);
+  padding-top: 20px;
+  background-size: 100% 100%;
+  height: 90vh;
+  background-position: center;
+  transform: translateX();
+} 
   
-  .about-page-title {
-    padding-top: 10px;
-    text-align: center;
-    position: relative;
-    color: $pageSubTitleColor;
-    letter-spacing: 10px;
-    font-family: $mainFont;
-    font-weight: bold;
-    font-size: 25px;
-  }
+.about-page-title {
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
+  color: $pageSubTitleColor;
+  letter-spacing: 10px;
+  font-family: $mainFont;
+  font-weight: bold;
+  font-size: 25px;
+}
   
-  .about-page-title::after {
-    position: absolute;
-    content: '';
-    top: 115px;
-    width: 600px;
-    height: 5px;
-    transform: translateX(-50%);
-    background: $pageSubTitleColor;
-  }
+.about-page-title::after {
+  position: absolute;
+  content: '';
+  top: 115px;
+  width: 600px;
+  height: 5px;
+  transform: translateX(-50%);
+  background: $pageSubTitleColor;
+}
   
-  .about-description p{
-    position: relative;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: $mainFont;
-    font-style: italic;
-    color: $whiteColor;
-    padding-top: 40px;
-    margin: 0 auto;
-    padding-left: 20%;
-    padding-right: 30%;
-    text-align: left;
+.about-description p{
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: $mainFont;
+  font-style: italic;
+  color: $whiteColor;
+  padding-top: 40px;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 30%;
+  text-align: left;
     
-  }
+}
   
-  .about-description h3 {
-    font-family: $mainFont;
-    text-align: right;
-    margin: 0 auto;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: $mainFont;
-    font-style: italic;
-    color: $whiteColor;
-    padding-right: 20%;
-  }
+.about-description h3 {
+  font-family: $mainFont;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: $mainFont;
+  font-style: italic;
+  color: $whiteColor;
+  padding-right: 20%;
+}
   
-  // FOOTER //
+// FOOTER //
   
-  .footer {
-    font-family: $mainFont;
-    position: relative;
-    text-align: center;
-    padding-top: 20px;
-    color: $footerColor;
-    font-size: 15px;
-    font-weight: 600;
-  } 
+.footer {
+  font-family: $mainFont;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  color: $footerColor;
+  font-size: 15px;
+  font-weight: 600;
+} 
